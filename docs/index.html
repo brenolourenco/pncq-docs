@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PNCQ</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" title="Defaults" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="Simple">
+  
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="assets/css/main.css">
+
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+</head>
+<body>
+  <div id="app">Loading ...</div>
+  <script>
+     // Docsify
+     window.$docsify = {
+            // GENERAL
+            // -----------------------------------------------------------------
+            name       : '<span>PNCQ Docs</span>',
+            repo       : 'https://github.com/pncq',
+            coverpage  : 'coverpage.md',
+            homepage   : 'README.md',
+            loadSidebar: '_sidebar.md',
+            // logo: '/_media/icon.svg',
+            themeColor   : '#174c82',
+
+            // NAVIGATION
+            // -----------------------------------------------------------------
+            alias: {
+                '.*?/changelog': 'https://cdn.jsdelivr.net/npm/docsify-themeable@0/CHANGELOG.md'
+                // '/es/(.*)': 'https://raw.githubusercontent.com/docsifyjs/docs-es/master/$1'
+            },
+            
+            auto2top   : true,
+            maxLevel   : 3,
+            subMaxLevel: 3,
+
+            // PLUGINS
+            // -----------------------------------------------------------------
+            executeScript: true,
+            ga    : 'UA-100100910-3',
+            search: {
+              noData: {
+                // '/en-us/': 'No results!',
+                // '/es/': '¡No hay resultados!',
+                '/': 'Nenhum resultado!'
+              },
+              paths: 'auto',
+              placeholder: {
+                // '/en-us/': 'Search',
+                // '/es/': 'Buscar',
+                '/': 'Procurar'
+              }
+            },
+            plugins: [
+              EditOnGithubPlugin.create('https://github.com/pncq/')
+            ]
+        };
+  </script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+</body>
+</html>
