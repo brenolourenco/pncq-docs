@@ -1,0 +1,4 @@
+- Translations
+  - [![alt](../assets/images/br.png)Portuguese](/)
+  - [![alt](../assets/images/us.png)English](/en-us/)
+  - [![alt](../assets/images/es.png)Spanish](/es/)
