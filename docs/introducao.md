@@ -1,20 +1,26 @@
 ## Introdução {docsify-ignore}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nulla eu ex varius, a varius elit tincidunt. Aenean arcu magna, gravida id purus a, interdum convallis turpis. Aenean id ipsum eu tortor sollicitudin scelerisque in quis elit.
+Documentação de apoio dos colaboradores do PNCQ que complementa os procedimentos da qualidade detalhando os procedimentos diários.
 
 ## Recursos
 
-- **Recurso A**  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nulla eu ex varius, a varius elit tincidunt. Aenean arcu magna, gravida id purus a, interdum convallis turpis. Aenean id ipsum eu tortor sollicitudin scelerisque in quis elit.
+- **Procedimentos organizados por tópicos**  
+A forma de organização permite fácil navegação com poucos cliques
 
-- **Recurso B**  
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse luctus nulla eu ex varius, a varius elit tincidunt. Aenean arcu magna, gravida id purus a, interdum convallis turpis. Aenean id ipsum eu tortor sollicitudin scelerisque in quis elit.
+- **Menu lateral**  
+Os tópicos estão organizados em forma de menu como é possível verificar logo ali ao lado 👈
+
+- **Pesquisa na barra lateral**  
+Esta documentação conta com uma pesquisa simplificada apenas por tópicos, mas isso torna a navegação ainda mais fácil oferecendo praticidade na hora de buscar por referências de apoio
+
+- **Markdown para edição**  
+A documentação é feita utilizando _markdown_ e não é necessário saber HTML ou qualquer outra linguagem de _script_ para edição
 
 ## Suporte
 
 - Crie uma issue no [GitHub](https://github.com/celsojr-pncq/pncq-docs) para reportar bugs, solicitar recursos, ou sugerir melhorias
 - Acesse o site principal para ficar por dentro das notícias
-- Siga o @pncq para saber as novidades primeiro
+- Siga o PNCQ nas redes sociais para saber as novidades primeiro
 - Adicione uma ⭐️ no [GitHub](https://github.com/celsojr-pncq/pncq-docs) ou ❤️ nas redes sociais para dar suporte ao projeto!
 
 ## Licença
